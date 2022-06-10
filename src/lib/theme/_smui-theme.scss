@@ -1,0 +1,18 @@
+@use './app';
+@use 'sass:color';
+@use '@material/theme/color-palette';
+
+@use '@material/theme' with (
+	$primary: app.$primary,
+	$secondary: app.$secondary,
+	$surface: #fff,
+	$background: app.$background,
+	$error: app.$error
+);
+
+html,
+body {
+	background-color: app.$background;
+	color: if(theme.contrast-tone(app.$background) == 'dark', #000, #fff);
+	margin: 0;
+}

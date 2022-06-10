@@ -3,6 +3,7 @@ RUN mkdir /app
 WORKDIR /app
 COPY . .
 RUN yarn install
+RUN yarn prepare
 RUN yarn build
 WORKDIR /app/build
 ENV PORT=80

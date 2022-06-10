@@ -22,6 +22,8 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: 'Install dependencies'
         run: 'yarn install'
+      - name: 'Prepare svelte'
+        run: 'yarn prepare'
       - name: 'Lint'
         run: 'yarn run lint'
       - name: 'Svelte check'
