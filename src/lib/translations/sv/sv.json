@@ -1,0 +1,27 @@
+{
+	"common": {
+		"save": "Spara",
+		"cancel": "Avbryt",
+		"delete": "Ta bort",
+		"yes": "Ja",
+		"are_you_sure": "Är du säker?",
+		"failed": "Misslyckades!",
+		"success": "Lyckades!"
+	},
+	"page_title": "Tanka",
+	"sites": "Stationer",
+	"address": "Adress",
+	"map": "Karta",
+	"login": "Logga in",
+	"admin_page": {
+		"title": "Admin",
+		"table_id": "ID",
+		"table_address": "Address",
+		"add_site": "Lägg till"
+	},
+	"site_page": {
+		"address": "Adress",
+		"latitude": "Latitud",
+		"longitude": "Longitud"
+	}
+}
